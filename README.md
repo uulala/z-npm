@@ -1,6 +1,10 @@
 前提：
   我们要知道一点：发布到npm上的组件是经过编译的代码。es6不行,jsx不行，stylus/sass/less都不行，你可以用gulp/webpack配合各种插件loader去编译你的源码，然后发布即可。
 
+页面中使用：
+import Hello from 'react-cat';
+<Hello />
+
 1.创建React组件
 
   创建react-cat目录：
@@ -124,3 +128,6 @@ npm owner rm <user> <package name>
 
 推荐阅读：
 如何创建React组件并发布到npm？https://www.jianshu.com/p/23b7ae876d03
+
+
+
