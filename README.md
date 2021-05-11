@@ -1,10 +1,5 @@
 ## 前提：
   发布到npm上的组件是经过编译的代码。es6 不行, jsx 不行，stylus/sass/less 都不行，你可以用 gulp/webpack 配合各种插件loader去编译你的源码，然后发布即可。
-## 使用：
-```js
-import Hello from 'react-cat';
-<Hello />
-```
 ## 从创建到发布的步骤
 ### 创建React组件
 1. 创建 react-cat 目录：
@@ -105,6 +100,11 @@ yarn run build
 yarn link // 创建项目链接 
 yarn link 'react-cat' // 测试：在本地新建测试项目，链接react-cat项目 
 // 打开 pblog/src/App.js，引入react-cat组件
+/**
+ * 使用
+ * import Hello from 'react-cat';
+ * <Hello />
+**/
 yarn run start // 运行项目
 
 ```
@@ -131,3 +131,6 @@ npm owner rm <user> <package name>
 
 ### 推荐阅读：
 如何创建React组件并发布到npm？https://www.jianshu.com/p/23b7ae876d03
+
+
+
