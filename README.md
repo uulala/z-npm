@@ -11,6 +11,7 @@
     yarn add react babel-preset-env babel-preset-react clean-webpack-plugin -D
     yarn add webpack webpack-cli -D
 ### 项目目录
+```js
   ├── node_modules
   ├── .gitignore // 手动添加
   ├── src
@@ -22,6 +23,7 @@
   ├── .babelrc // 手动添加
   ├── README.md //手动添加，建议英文书写
   └── webpack.config.js // 手动添加
+```
 
 ### 配置
 1. package.json
