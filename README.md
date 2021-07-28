@@ -7,9 +7,11 @@
    2. cd z-test-react
    3. yarn init //生成 package.json
 2. 安装依赖包:
-    yarn add babel-core babel-loader style-loader css-loader -D
-    yarn add react babel-preset-env babel-preset-react clean-webpack-plugin -D
-    yarn add webpack webpack-cli -D
+```js
+  yarn add babel-core babel-loader style-loader css-loader -D
+  yarn add react babel-preset-env babel-preset-react clean-webpack-plugin -D
+  yarn add webpack webpack-cli -D
+```
 ### 项目目录
 ```js
   ├── node_modules
